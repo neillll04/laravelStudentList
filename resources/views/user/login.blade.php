@@ -1,7 +1,7 @@
 @include('partials.header')
    <header class="max-w-lg mx-auto">
       <a href="#">
-         <h1 class="text-4xl font-bold text-white text-center mt-20 animate-bounce"> Student Login</h1>
+         <h1 class="text-4xl font-bold text-white text-center mt-20"> Student Login</h1>
       </a>
    </header>
 
