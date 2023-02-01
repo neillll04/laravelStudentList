@@ -1,7 +1,7 @@
 @include('partials.header')
    <header class="max-w-lg mx-auto">
       <a href="#">
-         <h1 class="text-4xl font-bold text-white text-center mt-20 animate-bounce"> Student Login</h1>
+         <h1 class="text-4xl font-bold text-white text-center mt-20 animate__animated animate__flipInY animate__delay-1s"> Student Login</h1>
       </a>
    </header>
 
@@ -16,14 +16,14 @@
           >
             <img
               src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.webp"
-              class="w-full"
+              class="w-full animate__animated animate__zoomInDown animate__delay-.7s"
               alt="Sample image"
             />
           </div>
           <div class="xl:ml-20 xl:w-5/12 lg:w-5/12 md:w-8/12 mb-12 md:mb-0">
 
             <section>
-               <h3 class="font-bold text-2xl text-center mb-3">Welcome to Student System</h3>
+               <h3 class="font-bold text-2xl text-center mb-3 animate__animated animate__fadeInDown">Welcome to Student System</h3>
                    <p class="text-white-600 pt-2 mb-2">Sign up a new account <a href="/register" class="text-cyan-500 font-bold">here</a></p>           
             </section>
             <form action="/login/process" method="POST" class="flex flex-col">
@@ -43,7 +43,7 @@
                   <input type="password" name="password" class="bg-gray-200 rounded w-full text-gray-700 focus:outline-none border-b-4 border-cyan-600 px-3">
                </div>
 
-               <button type="submit" class="bg-cyan-500 hover:bg-gradient-to-r from-cyan-600 to-blue-700 text-white font-bold py-2 rounded shadow-lg hover:shadow-xl transitionduration-200 hover:scale-105 transition duration-300 ease-in-out" type="submit">Login</button>
+               <button type="submit" class="bg-cyan-500 hover:bg-gradient-to-r from-cyan-600 to-blue-700 text-white font-bold py-2 rounded shadow-lg hover:shadow-xl transitionduration-200 hover:scale-105 transition duration-300 ease-in-out animate__animated animate__tada animate__delay-2s" type="submit">Login</button>
             </form>
           </div>
         </div>

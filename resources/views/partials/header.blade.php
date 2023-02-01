@@ -9,6 +9,10 @@
    <script src="//unpkg.com/alpinejs" defer></script>
    <script src="https://kit.fontawesome.com/7fd90f7e36.js" crossorigin="anonymous"></script>
     <script src="./tailwind3.js"></script>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 </head>
 <body class="h-14 bg-gradient-to-r from-cyan-500 to-blue-500 min-h-screen pt-12 pb-6 px-2">
 

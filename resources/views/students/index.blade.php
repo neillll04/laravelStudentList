@@ -8,7 +8,7 @@
     <div class="px-6 py-8">
       <div class="max-w-4xl mx-auto">
         <div class="bg-white rounded-3xl p-8 mb-5 text-center">
-         <h1 class="text-4xl font-bold pb-10">Students List</h1>
+         <h1 class="text-4xl font-bold pb-10 animate__animated animate__flipInY animate__delay-1s">Students List</h1>
          <div class="overflow-auto rounded-lg shadow">
          <table class="w-96 mx-auto sm:m-auto text-sm text-left text-gray-800">
             <thead class="text-xs  text-gray-700 uppercase ">

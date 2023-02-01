@@ -5,7 +5,7 @@
       <div class="px-6 py-8">
         <div class="max-w-4xl mx-auto">
           <div class="bg-white rounded-3xl p-8 mb-5 text-center">
-           <h1 class="text-4xl font-bold text-black text-center"> Add New Student</h1>
+           <h1 class="text-4xl font-bold text-black text-center animate__animated animate__flipInY animate__delay-1s"> Add New Student</h1>
            <section class="mt-10">
               <form action="/add/student" method="POST" class="flex flex-col">
                  @csrf
